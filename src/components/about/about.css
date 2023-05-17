@@ -1,0 +1,143 @@
+.header {
+  padding: 25px 0 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 50px;
+  width: 100%;
+}
+
+.logo__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.socil__link {
+  max-width: 17px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.social__media {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about__info {
+  display: grid;
+  grid-template-columns: 45% 370px;
+  gap: 10%;
+  align-items: center;
+  margin-bottom: 220px;
+  justify-content: space-between;
+}
+
+.about__subject {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffbb01;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.about__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.about__img {
+  max-width: 370px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: calc(40px + (50 - 40) * ((100vw - 320px) / (992 - 320))) 0
+      calc(40px + (105 - 40) * ((100vw - 320px) / (992 - 320)));
+  }
+  .social {
+    gap: calc(10px + (20 - 10) * ((100vw - 320px) / (992 - 320)));
+  }
+  .about__title {
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (992 - 320)));
+  }
+
+  .about__info {
+    margin-bottom: calc(140px + (230 - 140) * ((100vw - 320px) / (992 - 320)));
+  }
+  .about__img {
+    max-width: calc(150px + (375 - 150) * ((100vw - 320px) / (992 - 320)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__info {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 5%;
+  }
+
+  .about__info {
+    margin-bottom: 150px;
+  }
+
+  .about__desc {
+    order: 2;
+    text-align: center;
+  }
+  .about__text {
+    font-size: 14px;
+  }
+  .about__avatar {
+    border: 5px solid #fff;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .about__avatar {
+    border: 3px solid #fff;
+  }
+  .about__info {
+    margin-bottom: 150px;
+  }
+}

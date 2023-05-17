@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.024cdcc0.css",
+    "main.js": "/static/js/main.908b1db8.js",
+    "static/media/apex.png": "/static/media/apex.d66100024737379d4cb8.png",
+    "static/media/pizza.png": "/static/media/pizza.ed05a19dd3e554330195.png",
+    "static/media/avatar.jpg": "/static/media/avatar.7bfe336d876c59e520aa.jpg",
+    "static/media/project.jpg": "/static/media/project.b73b7742b18fb9b5ed72.jpg",
+    "static/media/agreement.svg": "/static/media/agreement.04e0b7920bc620acdc83f718f445691f.svg",
+    "static/media/results.svg": "/static/media/results.7badb65d9dc3bfaa065af4c689bd25a8.svg",
+    "static/media/storage.svg": "/static/media/storage.52742e1910841c7994a1cfce83c6f537.svg",
+    "static/media/porto.svg": "/static/media/porto.b62f7ed5792ce064c7de6e9499911ada.svg",
+    "static/media/conversation.svg": "/static/media/conversation.a822e7c6806f1ccd7cbd28b649fc92f5.svg",
+    "static/media/vk.svg": "/static/media/vk.1d9e6f1ed2e8b5ba6a180f3079e41d39.svg",
+    "static/media/contract.svg": "/static/media/contract.e9c6589c7950f1286fd52f77c4077883.svg",
+    "static/media/deadline.svg": "/static/media/deadline.e91134269afaa048102dd5c9426874fc.svg",
+    "static/media/time-icon.svg": "/static/media/time-icon.5ac6ac7838bccdc59e5830bdf0140710.svg",
+    "static/media/feedback-icon.svg": "/static/media/feedback-icon.8c3072675f13860b95d7bc672f10141e.svg",
+    "static/media/cost-icon.svg": "/static/media/cost-icon.a3e6e1881982ab48b4d601fe4a596096.svg",
+    "static/media/telegram.svg": "/static/media/telegram.6b252bf983bc8782562564bfd78f6c36.svg",
+    "static/media/github.svg": "/static/media/github.9372ef70043c457fa2460de5752a8731.svg",
+    "index.html": "/index.html",
+    "main.024cdcc0.css.map": "/static/css/main.024cdcc0.css.map",
+    "main.908b1db8.js.map": "/static/js/main.908b1db8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.024cdcc0.css",
+    "static/js/main.908b1db8.js"
+  ]
+}
